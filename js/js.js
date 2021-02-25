@@ -13,7 +13,6 @@ function smoothScroll(target, duration) {
     var distance = targetPosition - startPosition;
     var startTime = null;
 
-    console.log('Hej fra linje 15')
 
     function animation(currentTime) {
         if (startTime === null) startTime = currentTime;
@@ -37,13 +36,12 @@ function smoothScroll(target, duration) {
 
 
 var section1 = document.querySelector('.vider-knap-1');
+var tilbage1 = document.querySelector('.tilbage-knap-1');
 
 section1.addEventListener('click', function () {
-    smoothScroll('.section-2', 2000)
+    smoothScroll('#section-2', 2000)
 });
 
-var section2 = document.querySelector('.vider-knap-2');
-
-section2.addEventListener('click', function () {
-    smoothScroll('.section-1', 2000)
+tilbage1.addEventListener('click', function () {
+    smoothScroll('#section-1', 2000)
 });
