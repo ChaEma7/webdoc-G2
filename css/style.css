@@ -3,3 +3,152 @@
  * purpose: styles, animation etc
  * further development: meyer reset perhaps?
  **/
+
+:root {
+    /* Baggrundsfarver */
+    --b-f-1: #edf4ec;
+    --b-f-2: #f2fff4;
+    /* Farve palette */
+    --f-1: #d2f2c9;
+    --f-2: #c1d9ba;
+    --f-3: #315937;
+    --f-4: #21402e;
+    --f-5: #102226;
+    --f-6: rgba(16, 34, 38, 0.7);
+    --f-7: rgba(49, 89, 55, 0.55);
+    /* gradient farve */
+
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--f-2);
+    background-image: linear-gradient(to left, var(--f-7), var(--f-2));
+    overflow-x: hidden;
+
+
+
+}
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+
+
+
+}
+
+
+
+
+/* loading page */
+
+.load-text-container {
+    display: block;
+    margin: 200px 0 0 50px;
+
+}
+
+.grow-logo {
+    width: 575px;
+    margin-bottom: -30px;
+}
+
+.load-page-h1 {
+    line-height: 1;
+    letter-spacing: -2px;
+    line-height: 1.2;
+    font-size: 40pt;
+    color: var(--f-6)
+}
+
+.load-p {
+    color: var(--f-6);
+    font-weight: 600;
+    letter-spacing: -0.6px;
+    font-size: 12pt;
+    margin-top: -40px;
+}
+
+/* opdeler */
+
+.boegle {
+    position: relative;
+    width: 100%;
+
+}
+
+.boegle-1 {
+    margin-top: -300px;
+}
+
+.boegle-2 {
+    margin-top: 200px;
+}
+
+/* scroll knap test */
+
+a {
+    text-decoration: none;
+    color: var(--f-5);
+    font-size: 10pt;
+    font-weight: 600;
+
+}
+
+button {
+    position: absolute;
+    bottom: 20px;
+    z-index: 20;
+    border: 1px solid var(--f-1);
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: var(--f-1);
+    margin-left: 20px;
+
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+
+    .boegle {
+        width: 1900px;
+    }
+
+    .boegle-1 {
+        margin-top: -500px;
+    }
+
+    .load-text-container {
+        margin: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .load-text-container {
+        margin: 40px 20px;
+    }
+
+    .grow-logo {
+        width: 100%;
+        margin: auto;
+    }
+
+    .load-page-h1 {
+        font-size: 8.5vw;
+
+    }
+
+    .load-p {
+        font-size: 3vw;
+        margin-top: -25px;
+    }
+
+    .boegle-1 {
+        margin-top: -400px;
+    }
+}
