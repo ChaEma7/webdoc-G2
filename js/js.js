@@ -13,12 +13,14 @@ function smoothScroll(target, duration) {
     var distance = targetPosition - startPosition;
     var startTime = null;
 
-    function animationScroll(currentTime) {
+    console.log('Hej fra linje 15')
+
+    function animation(currentTime) {
         if (startTime === null) startTime = currentTime;
         var timeElapsed = currentTime - startTime;
         var run = ease(timeElapsed, startPosition, distance, duration);
         window.scrollTo(0, run);
-        if (timeElapsed < duration) requestAnimationFrame(animation);
+        if (timeElapsed < duration) window.requestAnimationFrame(animation);
     }
 
     function ease(t, b, c, d) {
@@ -28,12 +30,20 @@ function smoothScroll(target, duration) {
         return -c / 2 * (t * (t - 2) - 1) + b;
     }
 
-    requestAnimationFrame(animation);
+    window.requestAnimationFrame(animation);
 }
+
+
 
 
 var section1 = document.querySelector('.vider-knap-1');
 
 section1.addEventListener('click', function () {
-    smoothScroll('.section-2', 1000)
+    smoothScroll('.section-2', 2000)
+});
+
+var section2 = document.querySelector('.vider-knap-2');
+
+section2.addEventListener('click', function () {
+    smoothScroll('.section-1', 2000)
 });
