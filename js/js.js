@@ -43,5 +43,5 @@ section1.addEventListener('click', function () {
 });
 
 tilbage1.addEventListener('click', function () {
-    smoothScroll('#section-1', 2000)
+    smoothScroll('#section-1', 3500)
 });

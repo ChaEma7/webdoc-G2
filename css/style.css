@@ -14,9 +14,11 @@
     --f-3: #315937;
     --f-4: #21402e;
     --f-5: #102226;
+    /* gradient farve */
     --f-6: rgba(16, 34, 38, 0.7);
     --f-7: rgba(49, 89, 55, 0.55);
-    /* gradient farve */
+    /* Kontrast farve */
+    --f-8: #d2b0b0;
 
 }
 
@@ -24,6 +26,7 @@ html {
     font-family: 'Poppins', sans-serif;
     background-color: var(--f-2);
     background-image: linear-gradient(to left, var(--f-7), var(--f-2));
+    background-repeat: no-repeat;
     overflow-x: hidden;
 
 
@@ -31,12 +34,10 @@ html {
 }
 
 body {
-    margin: 0px;
+    margin: auto;
     overflow-x: hidden;
-
-
-
 }
+
 
 
 
@@ -59,7 +60,7 @@ body {
     letter-spacing: -2px;
     line-height: 1.2;
     font-size: 40pt;
-    color: var(--f-6)
+    color: var(--f-6);
 }
 
 .load-p {
@@ -68,22 +69,107 @@ body {
     letter-spacing: -0.6px;
     font-size: 12pt;
     margin-top: -40px;
+    margin-bottom: 80px;
 }
 
-/* opdeler */
+.first-step-figure {
+    border: 1px solid var(--f-8);
+    border-radius: 100px;
+    background-color: var(--f-8);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 60px;
+    top: 400px;
+}
 
-.boegle {
-    position: relative;
+.first-step-figure p {
+    padding: 59px 15px;
+    font-weight: 600;
+    color: var(--f-4);
+    text-align: center;
+}
+
+.first-step-figure p strong {
+    font-size: 18pt;
+}
+
+.first-step-img {
+    height: 150px;
+    opacity: 10%;
+    position: absolute;
+    padding: 25px;
+}
+
+/* intro */
+
+.baggrund-info {
+    margin-top: -86px;
+    position: absolute;
+    left: 0px;
+    margin: auto;
+    z-index: -30;
     width: 100%;
 
 }
 
+#section-2 .intro-container {
+    display: block;
+    margin-top: -50px;
+}
+
+.fig-section2-1 {
+    background-image: url(../images/kontrast/blob-1.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.lille-logo {
+    height: 30px;
+    display: block;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.info {
+    padding: 0 65px;
+    font-size: 22.5pt;
+    color: var(--f-5);
+    margin-bottom: 0px;
+}
+
+.fig-section2-1 p {
+    padding: 0px 65px;
+    color: var(--f-5);
+    font-size: 11pt;
+    margin-top: 0px;
+}
+
+/* opdeler */
+
+
+.boegle {
+    position: relative;
+    width: 100%;
+    display: block;
+    z-index: -20;
+
+
+}
+
 .boegle-1 {
-    margin-top: -300px;
+    margin-top: -500px;
+    margin-bottom: -500px;
+    /* <------------------------------------- Styre højden på section 2 */
 }
 
 .boegle-2 {
-    margin-top: 200px;
+    margin-top: 600px;
 }
 
 /* scroll knap test */
@@ -93,24 +179,41 @@ a {
     color: var(--f-5);
     font-size: 10pt;
     font-weight: 600;
+}
 
+/* Knapper til scroll animation */
+
+button {
+
+    z-index: 20;
+    display: block;
+    margin: auto;
 }
 
 .vider-knap-1 {
-    position: absolute;
-    bottom: 20px;
-    z-index: 20;
-    border: 1px solid var(--f-1);
-    height: 100px;
-    width: 100px;
-    border-radius: 100px;
-    background-color: var(--f-1);
-    margin-left: 20px;
+    position: relative;
+    bottom: -110px;
+    background-color: rgba(0, 255, 255, 0);
+    border: 0px;
+    padding-right: 55px;
+    margin-bottom: 20px;
+}
+
+.vider-knap-1 img {
+    height: 30px;
+}
+
+.tilbage-knap-1 {
+    position: relative;
+    top: 10px;
+    background-color: rgba(0, 255, 255, 0);
+    border: 0px;
 
 }
 
-.tilbage-knap-1 {}
-
+.tilbage-knap-1 img {
+    height: 30px;
+}
 
 @media only screen and (max-width: 1300px) {
 
