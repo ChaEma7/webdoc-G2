@@ -46,7 +46,7 @@ body {
 
 .load-text-container {
     display: block;
-    margin: 200px 0 0 50px;
+    margin: 150px 0 0 50px;
 
 }
 
@@ -58,9 +58,14 @@ body {
 .load-page-h1 {
     line-height: 1;
     letter-spacing: -2px;
-    line-height: 1.2;
     font-size: 40pt;
+    font-weight: 500;
     color: var(--f-6);
+}
+
+.load-page-h1 strong {
+    font-weight: 700;
+
 }
 
 .load-p {
@@ -68,7 +73,7 @@ body {
     font-weight: 600;
     letter-spacing: -0.6px;
     font-size: 12pt;
-    margin-top: -40px;
+    margin-top: -50px;
     margin-bottom: 80px;
 }
 
@@ -79,8 +84,8 @@ body {
     height: 200px;
     width: 200px;
     position: absolute;
-    right: 60px;
-    top: 400px;
+    right: 4%;
+    top: 450px;
 }
 
 .first-step-figure p {
@@ -101,31 +106,27 @@ body {
     padding: 25px;
 }
 
-/* intro */
+/* ---------------------------------- intro */
 
 .baggrund-info {
-    margin-top: -86px;
+    margin-top: -375px;
     position: absolute;
     left: 0px;
-    margin: auto;
     z-index: -30;
     width: 100%;
 
 }
 
-#section-2 .intro-container {
-    display: block;
-    margin-top: -50px;
-}
 
 .fig-section2-1 {
-    background-image: url(../images/kontrast/blob-1.png);
-    background-repeat: no-repeat;
+    border: 2px solid var(--f-8);
+    border-radius: 100%;
+    background-color: var(--f-8);
     height: 500px;
     width: 500px;
     display: block;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 300px;
 
 }
 
@@ -150,7 +151,7 @@ body {
     margin-top: 0px;
 }
 
-/* opdeler */
+/* ------------------------------- opdeler */
 
 
 .boegle {
@@ -163,7 +164,7 @@ body {
 }
 
 .boegle-1 {
-    margin-top: -500px;
+    margin-top: -450px;
     margin-bottom: -500px;
     /* <------------------------------------- Styre højden på section 2 */
 }
@@ -172,7 +173,7 @@ body {
     margin-top: 600px;
 }
 
-/* scroll knap test */
+/* ---------------Knapper til scroll animation */
 
 a {
     text-decoration: none;
@@ -180,8 +181,6 @@ a {
     font-size: 10pt;
     font-weight: 600;
 }
-
-/* Knapper til scroll animation */
 
 button {
 
@@ -192,7 +191,7 @@ button {
 
 .vider-knap-1 {
     position: relative;
-    bottom: -110px;
+    bottom: -116px;
     background-color: rgba(0, 255, 255, 0);
     border: 0px;
     padding-right: 55px;
@@ -205,9 +204,9 @@ button {
 
 .tilbage-knap-1 {
     position: relative;
-    top: 10px;
     background-color: rgba(0, 255, 255, 0);
     border: 0px;
+    padding-top: 20px;
 
 }
 
