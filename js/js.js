@@ -37,6 +37,7 @@ function smoothScroll(target, duration) {
 
 var section1 = document.querySelector('.vider-knap-1');
 var tilbage1 = document.querySelector('.tilbage-knap-1');
+var section2 = document.querySelector('.vider-knap-2')
 
 section1.addEventListener('click', function () {
     smoothScroll('#section-2', 2000)
@@ -44,4 +45,8 @@ section1.addEventListener('click', function () {
 
 tilbage1.addEventListener('click', function () {
     smoothScroll('#section-1', 3500)
+});
+
+section2.addEventListener('click', function () {
+    smoothScroll('#section-3', 2000)
 });

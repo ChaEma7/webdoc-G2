@@ -109,7 +109,7 @@ body {
 /* ---------------------------------- intro */
 
 .baggrund-info {
-    margin-top: -375px;
+    margin-top: -325px;
     position: absolute;
     left: 0px;
     z-index: -30;
@@ -117,16 +117,19 @@ body {
 
 }
 
-
-.fig-section2-1 {
+.fig-section2 {
     border: 2px solid var(--f-8);
     border-radius: 100%;
     background-color: var(--f-8);
+    display: block;
+}
+
+.fig-section2-1 {
     height: 500px;
     width: 500px;
     display: block;
     margin: auto;
-    margin-top: 300px;
+    margin-top: 250px;
 
 }
 
@@ -137,18 +140,89 @@ body {
     padding-top: 60px;
 }
 
-.info {
+.info-h2 {
     padding: 0 65px;
-    font-size: 22.5pt;
-    color: var(--f-5);
+    font-size: 30pt;
+    color: var(--f-4);
     margin-bottom: 0px;
+    text-align: center;
 }
 
 .fig-section2-1 p {
     padding: 0px 65px;
-    color: var(--f-5);
+    color: var(--f-4);
     font-size: 11pt;
     margin-top: 0px;
+    text-align: center;
+}
+
+.fig-section2-2 {
+
+    height: 350px;
+    width: 350px;
+    margin-top: -800px;
+}
+
+.overskrift-str-s {
+    padding: 0 65px;
+    font-size: 20pt;
+    color: var(--f-4);
+    margin-bottom: 0px;
+    text-align: center;
+    line-height: 1;
+}
+
+.fig-section2-2 p {
+    padding: 20px 40px;
+    color: var(--f-4);
+    font-size: 11pt;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.fig-section2-3 {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    left: 950px;
+    bottom: 200px;
+}
+
+.fig-section2-3 p {
+    padding: 20px 40px;
+    color: var(--f-4);
+    font-size: 11pt;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.fig-section2-stor2 {
+    margin: 0px;
+    position: relative;
+    left: 800px;
+    top: 400px;
+
+}
+
+.large {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.fig-section2-mellem {
+    margin: 0px;
+    position: relative;
+    left: 50px;
+    height: 400px;
+    width: 400px;
+}
+
+/* --------------------- SECTION # ---------*/
+
+.potrat-section3 {
+    width: 50%;
+    position: absolute;
+    right: 0px;
 }
 
 /* ------------------------------- opdeler */
@@ -165,12 +239,18 @@ body {
 
 .boegle-1 {
     margin-top: -450px;
+    /* Styre højden på section 2 */
     margin-bottom: -500px;
-    /* <------------------------------------- Styre højden på section 2 */
+
 }
 
 .boegle-2 {
     margin-top: 600px;
+}
+
+.boegle-3 {
+    margin-top: -500px;
+
 }
 
 /* ---------------Knapper til scroll animation */
@@ -213,6 +293,21 @@ button {
 .tilbage-knap-1 img {
     height: 30px;
 }
+
+.vider-knap-2 {
+    position: relative;
+    bottom: -20px;
+    padding-right: 0px;
+    background-color: rgba(0, 255, 255, 0);
+    border: 0px;
+    margin-bottom: 20px;
+}
+
+.vider-knap-2 img {
+    height: 30px;
+}
+
+
 
 @media only screen and (max-width: 1300px) {
 
