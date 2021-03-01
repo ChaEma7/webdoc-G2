@@ -245,7 +245,7 @@ body {
 }
 
 .boegle-2 {
-    margin-top: 600px;
+    margin-top: -500px;
 }
 
 .boegle-3 {
@@ -304,6 +304,18 @@ button {
 }
 
 .vider-knap-2 img {
+    height: 30px;
+}
+
+.tilbage-knap-2 {
+    position: relative;
+    background-color: rgba(0, 255, 255, 0);
+    border: 0px;
+    padding-top: 20px;
+    margin-top: -500px;
+}
+
+.tilbage-knap-2 img {
     height: 30px;
 }
 
