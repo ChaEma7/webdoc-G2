@@ -35,7 +35,7 @@ html {
 
 body {
     margin: auto;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 
@@ -44,15 +44,11 @@ body {
 
 /* loading page */
 
-.load-text-container {
-    display: block;
-    margin: 150px 0 0 50px;
-
-}
-
 .grow-logo {
     width: 575px;
     margin-bottom: -30px;
+    position: relative;
+    padding: 150px 0 0 50px;
 }
 
 .load-page-h1 {
@@ -61,6 +57,8 @@ body {
     font-size: 40pt;
     font-weight: 500;
     color: var(--f-6);
+    position: relative;
+    padding: 0px 0 0 50px;
 }
 
 .load-page-h1 strong {
@@ -73,8 +71,10 @@ body {
     font-weight: 600;
     letter-spacing: -0.6px;
     font-size: 12pt;
-    margin-top: -50px;
+    margin-top: -40px;
     margin-bottom: 80px;
+    position: relative;
+    padding: 0px 0 0 50px;
 }
 
 .first-step-figure {
@@ -83,9 +83,9 @@ body {
     background-color: var(--f-8);
     height: 200px;
     width: 200px;
-    position: absolute;
-    right: 4%;
-    top: 450px;
+    position: relative;
+    left: 1170px;
+    bottom: 170px;
 }
 
 .first-step-figure p {
@@ -160,7 +160,7 @@ body {
 
     height: 350px;
     width: 350px;
-    margin-top: -800px;
+    margin-top: -700px;
 }
 
 .overskrift-str-s {
@@ -184,8 +184,8 @@ body {
     height: 350px;
     width: 350px;
     position: relative;
-    left: 950px;
-    bottom: 200px;
+    left: 1000px;
+    bottom: 300px;
 }
 
 .fig-section2-3 p {
@@ -217,6 +217,55 @@ body {
     width: 400px;
 }
 
+/* --------------------- SECTION 3 VIDEO ---------*/
+
+.control-icons {
+    height: 50px;
+}
+
+.sec-3-h2 {
+    line-height: 1;
+    letter-spacing: -2px;
+    font-size: 50pt;
+    font-weight: 800;
+    color: var(--f-4);
+    position: relative;
+    padding: 100px 0 0 50px;
+}
+
+.sec-3-p {
+    color: var(--f-5);
+    position: relative;
+    bottom: 40px;
+    padding: 0px 0 0 50px;
+    font-size: 25pt;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.light-sec3 {
+    height: 600px;
+    position: relative;
+    display: block;
+    z-index: -10;
+    bottom: 500px;
+    padding: 0 0 0 120px;
+}
+
+video {
+    position: relative;
+    bottom: 950px;
+    left: 900px;
+    width: 500px;
+
+}
+
+.ikoner {
+    position: relative;
+    bottom: 950px;
+    left: 1240px;
+}
+
 /* --------------------- SECTION # ---------*/
 
 .potrat-section3 {
@@ -238,18 +287,20 @@ body {
 }
 
 .boegle-1 {
-    margin-top: -450px;
+    margin-top: -650px;
     /* Styre højden på section 2 */
     margin-bottom: -500px;
 
 }
 
 .boegle-2 {
-    margin-top: -500px;
+    margin-top: -550px;
+
 }
 
 .boegle-3 {
-    margin-top: -500px;
+    margin-top: -1380px;
+
 
 }
 
@@ -269,43 +320,38 @@ button {
     margin: auto;
 }
 
-.vider-knap-1 {
+.ned-knap-1 {
     position: relative;
-    bottom: -116px;
-    background-color: rgba(0, 255, 255, 0);
-    border: 0px;
-    padding-right: 55px;
-    margin-bottom: 20px;
+    bottom: 90px;
+
 }
 
-.vider-knap-1 img {
+.ned-icon {
     height: 30px;
+    display: block;
+    margin: auto;
 }
 
-.tilbage-knap-1 {
+.op-knap-1 {
     position: relative;
-    background-color: rgba(0, 255, 255, 0);
-    border: 0px;
-    padding-top: 20px;
+    top: 25px;
+
 
 }
 
-.tilbage-knap-1 img {
+.op-icon {
     height: 30px;
+    display: block;
+    margin: auto;
 }
 
-.vider-knap-2 {
+.ned-knap-2 {
     position: relative;
-    bottom: -20px;
-    padding-right: 0px;
-    background-color: rgba(0, 255, 255, 0);
-    border: 0px;
-    margin-bottom: 20px;
+    bottom: 40px;
 }
 
-.vider-knap-2 img {
-    height: 30px;
-}
+
+
 
 .tilbage-knap-2 {
     position: relative;
