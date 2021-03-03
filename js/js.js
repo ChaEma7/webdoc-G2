@@ -111,3 +111,25 @@ function makeNormal() {
 playNow.addEventListener('click', playPause)
 muteNow.addEventListener('click', shutUpPlease)
 // bigNow.addEventListener('click', makeBig)
+
+// --------------------------------- LOOP --------------
+
+let minListe = [
+    'Beskriv din forretningside - <br> er den original og er der behov for den?',
+    'Skal dine ideer beskyttes?',
+    'Overvej hvilken virksomhedsform, <br> der passer dig bedst.',
+    'Lav en forretningsplan.',
+    'Virksomhedsnavn, logo og domæne.',
+    'Undersøg markedet.',
+    'Bogføring.',
+    'Digital marketing.',
+    'Forsikringer.',
+    'Ansvar som arbejdsgiver.'
+
+]
+
+for (let i = 0; i < minListe.length; i++) {
+    //console.log(minListe[i])
+    listeContent.innerHTML += '<li>' + minListe[i]
+    '</li>'
+}

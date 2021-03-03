@@ -387,6 +387,67 @@ video {
     color: var(--f-4);
 }
 
+
+
+/* ------------------------------ Section 5 ---------*/
+
+.section-5 {
+    margin-top: -510px
+}
+
+.tjek {
+    position: relative;
+    left: 250px;
+    top: 200px;
+
+}
+
+.tjekliste-fig {
+    background-color: var(--f-8);
+    height: 650px;
+    width: 650px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 340px;
+    left: 800px;
+}
+
+.sec5-h5 {
+    text-align: center;
+    font-size: 20pt;
+    color: var(--f-3);
+    padding-top: 40px;
+}
+
+.sec5-h5 strong {
+    font-size: 40pt;
+}
+
+ol {
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+li {
+    font-size: 13pt;
+    color: var(--f-4);
+}
+
+.stor-fod {
+    height: 500px;
+    opacity: 10%;
+    position: absolute;
+    padding: 75px;
+}
+
+.uddybelse-link {
+    text-decoration: underline;
+    position: absolute;
+    margin: 55px 235px;
+
+}
+
+
 /* ------------------------------- opdeler */
 
 
@@ -418,6 +479,10 @@ video {
 
 .boegle-4 {
     margin-top: -1050px;
+}
+
+.boegle-5 {
+    margin-top: -800px
 }
 
 /* ---------------Knapper til scroll animation */
@@ -478,9 +543,18 @@ button {
 
 .ned-knap-4 {
     position: relative;
-    bottom: 1080px
+    bottom: 1080px;
 }
 
+.op-knap-4 {
+    position: relative;
+    top: 20px;
+}
+
+.ned-knap-5 {
+    position: relative;
+    bottom: 360px;
+}
 
 @media only screen and (max-width: 1300px) {
 
