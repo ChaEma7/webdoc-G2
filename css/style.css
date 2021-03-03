@@ -149,9 +149,10 @@ body {
 }
 
 .fig-section2-1 p {
-    padding: 0px 65px;
+    padding: 0px 60px;
     color: var(--f-4);
-    font-size: 11pt;
+    font-size: 18pt;
+    line-height: 1.2;
     margin-top: 0px;
     text-align: center;
 }
@@ -178,6 +179,12 @@ body {
     font-size: 11pt;
     margin-top: 0px;
     text-align: center;
+    margin-top: -170px;
+}
+
+.kontor-ikon {
+    height: 250px;
+    padding: 10px 40px;
 }
 
 .fig-section2-3 {
@@ -189,7 +196,7 @@ body {
 }
 
 .fig-section2-3 p {
-    padding: 20px 40px;
+    padding: 50px 40px;
     color: var(--f-4);
     font-size: 11pt;
     margin-top: 0px;
@@ -200,12 +207,16 @@ body {
     margin: 0px;
     position: relative;
     left: 800px;
-    top: 400px;
+    top: 300px;
 
 }
 
+.fig-section2-stor2 p {
+    padding-top: 50px;
+}
+
 .large {
-    padding-top: 60px;
+    padding-top: 80px;
     padding-bottom: 30px;
 }
 
@@ -213,8 +224,13 @@ body {
     margin: 0px;
     position: relative;
     left: 50px;
+    bottom: 80px;
     height: 400px;
     width: 400px;
+}
+
+.fig-section2-mellem p {
+    font-size: 15pt;
 }
 
 /* --------------------- SECTION 3 VIDEO ---------*/
@@ -226,17 +242,20 @@ body {
 .sec-3-h2 {
     line-height: 1;
     letter-spacing: -2px;
-    font-size: 50pt;
+    font-size: 45pt;
     font-weight: 800;
     color: var(--f-4);
     position: relative;
-    padding: 100px 0 0 50px;
+    padding: 118px 0 0 50px;
+    bottom: 50px;
+
+
 }
 
 .sec-3-p {
     color: var(--f-5);
     position: relative;
-    bottom: 40px;
+    bottom: 90px;
     padding: 0px 0 0 50px;
     font-size: 25pt;
     font-weight: 400;
@@ -244,34 +263,128 @@ body {
 }
 
 .light-sec3 {
-    height: 600px;
+    height: 500px;
     position: relative;
     display: block;
     z-index: -10;
-    bottom: 500px;
+    bottom: 530px;
     padding: 0 0 0 120px;
+    margin: 70px 0;
+
 }
 
 video {
     position: relative;
     bottom: 950px;
-    left: 900px;
-    width: 500px;
+    left: 850px;
+    width: 600px;
+    display: block;
+    z-index: 20;
 
 }
 
 .ikoner {
     position: relative;
-    bottom: 950px;
-    left: 1240px;
+    bottom: 940px;
+    left: 1346px;
 }
 
-/* --------------------- SECTION # ---------*/
+/*--------------------------------- SECTION 4 ---*/
 
-.potrat-section3 {
-    width: 50%;
-    position: absolute;
-    right: 0px;
+.section-4 {
+    margin-top: -500px;
+}
+
+.pink-kasse-section4 {
+    width: 35%;
+    height: 750px;
+    position: relative;
+    background-color: var(--f-8);
+    margin: 0px;
+    margin-top: -40px;
+    left: 10px;
+    box-shadow: 2px 5px 10px 5px rgba(51, 14, 5, 0.33);
+
+}
+
+.sec4-h4 {
+    font-size: 28pt;
+    padding-left: 50px;
+    color: var(--f-3);
+    margin-top: 100px;
+
+}
+
+.workshop-p {
+    padding: 0 50px;
+    color: var(--f-4);
+    margin-top: -50px;
+}
+
+.pic-kasse {
+    margin: 40px 139px;
+}
+
+.fig-tekst-1 {
+    margin-top: -40px;
+    color: var(--f-3);
+    text-align: center;
+
+}
+
+.s4-pic1-kasse {
+    position: relative;
+    height: 300px;
+    width: 380px;
+    bottom: 650px;
+    left: 1000px;
+}
+
+.sec4-pic1 {
+    display: block;
+    margin: auto;
+
+}
+
+.s4-pic1-kasse p {
+    text-align: center;
+    color: var(--f-1);
+}
+
+.s4-pic2-kasse {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    bottom: 850px;
+    left: 600px;
+}
+
+.sec4-pic2 {
+    display: block;
+    margin: auto;
+}
+
+.s4-pic2-kasse p {
+    text-align: center;
+    color: var(--f-4);
+}
+
+.s4-pic3-kasse {
+    position: relative;
+    height: 350px;
+    width: 400px;
+    bottom: 1000px;
+    left: 1100px;
+}
+
+.sec4-pic3 {
+    display: block;
+    margin: auto;
+}
+
+.s4-pic3-kasse p {
+    text-align: center;
+    color: var(--f-4);
 }
 
 /* ------------------------------- opdeler */
@@ -299,9 +412,12 @@ video {
 }
 
 .boegle-3 {
-    margin-top: -1380px;
+    margin-top: -1350px;
 
+}
 
+.boegle-4 {
+    margin-top: -1050px;
 }
 
 /* ---------------Knapper til scroll animation */
@@ -351,20 +467,19 @@ button {
 }
 
 
-
-
-.tilbage-knap-2 {
+.ned-knap-3 {
     position: relative;
-    background-color: rgba(0, 255, 255, 0);
-    border: 0px;
-    padding-top: 20px;
-    margin-top: -500px;
+    bottom: 850px;
 }
 
-.tilbage-knap-2 img {
-    height: 30px;
+.op-knap-3 {
+    position: relative;
 }
 
+.ned-knap-4 {
+    position: relative;
+    bottom: 1080px
+}
 
 
 @media only screen and (max-width: 1300px) {

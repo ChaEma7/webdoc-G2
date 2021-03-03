@@ -1,3 +1,4 @@
+console.log('JavaScript from js/js.js: up and running!')
 // -------------------- smooth scroll animation 
 function smoothScroll(target, duration) {
     // var target = document.querySelector(".last"); // vil altid hoppe til last
@@ -91,6 +92,8 @@ function shutUpPlease() {
     console.log('prøver at mute')
 }
 
+// Ville have lavet en if funtion til størrelsen på videoen, men der var ikke tid.
+/*
 function makeBig() {
     myVideo.width = 1000;
 }
@@ -102,10 +105,9 @@ function makeSmall() {
 function makeNormal() {
     myVideo.width = 400;
 }
-
+*/
 
 // eventListener 
 playNow.addEventListener('click', playPause)
 muteNow.addEventListener('click', shutUpPlease)
-bigNow.addEventListener('click', makeBig)
-smallNow.addEventListener('click', makeSmall)
+// bigNow.addEventListener('click', makeBig)
