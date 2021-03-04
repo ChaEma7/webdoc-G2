@@ -336,7 +336,7 @@ video {
     position: relative;
     height: 300px;
     width: 380px;
-    bottom: 650px;
+    bottom: 700px;
     left: 1000px;
 }
 
@@ -373,7 +373,7 @@ video {
     position: relative;
     height: 350px;
     width: 400px;
-    bottom: 1000px;
+    bottom: 1050px;
     left: 1100px;
 }
 
@@ -447,6 +447,105 @@ li {
 
 }
 
+/*----------------------------- SECTION 6 ABOUT ---------------*/
+
+.section-6 {
+    margin-top: -535px;
+}
+
+.mere-kasse {
+    width: 500px;
+    padding: 200px 50px;
+}
+
+h6 {
+    font-size: 15pt;
+    color: var(--f-4);
+    margin: 50px 0 0 0;
+}
+
+.mere-links {
+    color: var(--f-3);
+    text-decoration: underline;
+}
+
+.questions {
+    color: var(--f-1);
+    width: 400px;
+    position: relative;
+    bottom: 550px;
+    left: 1000px;
+    padding: 10px;
+
+}
+
+.questions a {
+    color: var(--f-1);
+    text-decoration: underline;
+
+}
+
+.q {
+    color: var(--f-1);
+    text-align: center;
+}
+
+.small-contanks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-contanks p {
+    color: var(--f-2);
+}
+
+/*--------------------------------FOOTER------------------*/
+
+footer {
+    background-color: var(--f-1);
+    margin-top: -370px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer aside {
+    padding: 20px 20px;
+    width: 300px;
+}
+
+footer h6 {
+    margin-top: 0px;
+}
+
+footer aside p {
+    color: var(--f-4);
+    margin: 0px;
+}
+
+.mid-foot {
+    width: 700px;
+    margin-top: 50px;
+}
+
+.lille-p-foot {
+    font-size: 10pt;
+    color: var(--f-3);
+    margin-top: 10px;
+
+}
+
+.some {
+    position: relative;
+    bottom: 43px;
+    left: 1170px;
+
+}
+
+.some-pic {
+    height: 40px;
+    padding: 0 5px;
+}
 
 /* ------------------------------- opdeler */
 
@@ -456,33 +555,38 @@ li {
     width: 100%;
     display: block;
     z-index: -20;
-
-
 }
+
 
 .boegle-1 {
     margin-top: -650px;
     /* Styre højden på section 2 */
     margin-bottom: -500px;
 
+
+
 }
 
 .boegle-2 {
     margin-top: -550px;
+
 
 }
 
 .boegle-3 {
     margin-top: -1350px;
 
+
 }
 
 .boegle-4 {
     margin-top: -1050px;
+
 }
 
 .boegle-5 {
-    margin-top: -800px
+    margin-top: -850px;
+
 }
 
 /* ---------------Knapper til scroll animation */
@@ -555,6 +659,12 @@ button {
     position: relative;
     bottom: 360px;
 }
+
+.op-knap-5 {
+    position: relative;
+    top: 40px;
+}
+
 
 @media only screen and (max-width: 1300px) {
 
