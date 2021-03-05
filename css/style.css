@@ -25,7 +25,7 @@
 html {
     font-family: 'Poppins', sans-serif;
     background-color: var(--f-2);
-    background-image: linear-gradient(to left, var(--f-7), var(--f-2));
+    background-image: linear-gradient(to left, rgba(49, 89, 55, 0.55), #c1d9ba);
     background-repeat: no-repeat;
     overflow-x: hidden;
 
@@ -36,6 +36,7 @@ html {
 body {
     margin: auto;
     overflow: hidden;
+    width: 100%;
 }
 
 
@@ -109,12 +110,11 @@ body {
 /* ---------------------------------- intro */
 
 .baggrund-info {
-    margin-top: -325px;
+    margin-top: -30px;
     position: absolute;
     left: 0px;
     z-index: -30;
     width: 100%;
-
 }
 
 .fig-section2 {
@@ -666,44 +666,374 @@ button {
 }
 
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1450px) {
 
-    .boegle {
-        width: 1900px;
+
+
+    .ned-knap-1 {
+        display: none;
     }
 
-    .boegle-1 {
-        margin-top: -500px;
+    .op-knap-1 {
+        display: none;
     }
 
-    .load-text-container {
-        margin: 100px;
+
+
+    .ned-knap-2 {
+        display: none;
     }
+
+
+    .ned-knap-3 {
+        display: none;
+    }
+
+    .op-knap-3 {
+        display: none;
+    }
+
+    .ned-knap-4 {
+        display: none;
+    }
+
+    .op-knap-4 {
+        display: none;
+    }
+
+    .ned-knap-5 {
+        display: none;
+    }
+
+    .op-knap-5 {
+        display: none;
+    }
+
+
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
 
-    .load-text-container {
-        margin: 40px 20px;
+    body {
+        width: 100%;
+        overflow: hidden;
+        background-repeat: no-repeat;
     }
 
+    /* section 1 loadpage */
+
     .grow-logo {
-        width: 100%;
+        width: 80%;
+        margin-bottom: 0px;
+        padding: 50px 0 0 0px;
+        display: block;
         margin: auto;
     }
 
     .load-page-h1 {
-        font-size: 8.5vw;
-
+        font-size: 35pt;
+        font-weight: 500;
+        display: block;
+        margin: auto;
+        margin-left: 30px;
+        padding-top: 15px;
     }
 
     .load-p {
-        font-size: 3vw;
-        margin-top: -25px;
+        font-size: 15pt;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: block;
+        margin: auto;
+        margin-left: 30px;
+    }
+
+    .first-step-figure {
+        position: absolute;
+        left: 65%;
+        bottom: 25%;
+
     }
 
     .boegle-1 {
-        margin-top: -400px;
+        margin-top: 0px;
+        /* Styre højden på section 2 */
+        margin-bottom: 0px;
     }
+
+    /* SECTION 2 INTRO */
+
+    .baggrund-info {
+        margin-top: -950px;
+    }
+
+    .boegle-2 {
+        position: absolute;
+        margin-top: -1750px;
+    }
+
+    .section-2 {
+        margin-top: -50px;
+    }
+
+    .fig-section2-1 {
+        margin-top: 700px;
+    }
+
+    .fig-section2-2 {
+        margin-top: 0px;
+        position: absolute;
+        margin-left: 20px
+    }
+
+    .fig-section2-3 {
+        position: absolute;
+        left: 350px;
+        bottom: 0px;
+        top: 2070px;
+    }
+
+    .fig-section2-3 p {
+        padding: 50px 40px;
+        color: var(--f-4);
+        font-size: 11pt;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .fig-section2-stor2 {
+        margin: 0px;
+        position: relative;
+        left: 0px;
+        top: 350px;
+        display: block;
+        margin: auto;
+
+    }
+
+    .fig-section2-mellem {
+        margin: auto;
+        position: relative;
+        left: 0px;
+        bottom: -370px;
+
+    }
+
+    /* Section 3 video */
+
+    .boegle-3 {
+        margin-top: -1700px;
+    }
+
+    .sec-3 {
+        display: block;
+        margin: auto;
+        margin-top: 600px;
+    }
+
+    .lille-logo-sec3 {
+        display: none;
+    }
+
+    .control-icons {
+        height: 50px;
+    }
+
+
+    .sec-3-h2 {
+        position: relative;
+        padding: 0px 0 0 0px;
+        bottom: -250px;
+        text-align: center;
+    }
+
+    .sec-3-p {
+        position: relative;
+        bottom: -220px;
+        padding: 0px 0 0 0px;
+        text-align: center;
+    }
+
+    .light-sec3 {
+        margin: auto;
+        bottom: 200px;
+        padding: 0 0 0 0px;
+    }
+
+    video {
+        bottom: 150px;
+        left: 0px;
+        width: 95%;
+        display: block;
+        margin: auto;
+        z-index: 20;
+    }
+
+    .ikoner {
+        position: relative;
+        bottom: 130px;
+        left: 0px;
+        text-align: center;
+    }
+
+    /* SECTION 4 workshop */
+
+    .section-4 {
+        margin-top: 1100px;
+    }
+
+    .pink-kasse-section4 {
+        width: 95%;
+        height: 1550px;
+        display: block;
+        margin: auto;
+        margin-top: 0px;
+        left: 0px;
+    }
+
+    .sec4-h4 {
+        margin-top: 50px;
+
+    }
+
+
+    .pic-kasse {
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .fig-tekst-1 {
+        margin-top: 10px;
+
+    }
+
+    .s4-pic1-kasse {
+        bottom: 900px;
+        left: 0px;
+    }
+
+    .s4-pic1-kasse p {
+        color: var(--f-3);
+    }
+
+    .s4-pic2-kasse {
+        bottom: 1050px;
+        left: 320px;
+    }
+
+
+    .s4-pic2-kasse p {
+        color: var(--f-3);
+    }
+
+    .s4-pic3-kasse {
+        bottom: 1150px;
+        left: 0px;
+    }
+
+
+    .s4-pic3-kasse p {
+        color: var(--f-3);
+    }
+
+    /* SECTION 5 tjekliste */
+
+    .section-5 {
+        margin-top: -0px
+    }
+
+    .tjek {
+        left: 0px;
+        top: -65px;
+        display: block;
+        margin: auto;
+        padding-right: 250px;
+    }
+
+    .tjekliste-fig {
+        position: relative;
+        bottom: 240px;
+        left: 0px;
+        display: block;
+        margin: auto;
+    }
+
+    /* SECTION 6 about */
+
+    .section-6 {
+        margin-top: -200px;
+    }
+
+    .boegle-5 {
+        margin-top: -300px;
+
+    }
+
+    .mere-kasse {
+        display: block;
+        margin: auto;
+    }
+
+
+
+    .questions {
+        color: var(--f-4);
+        width: 500px;
+        padding: 0px;
+        bottom: 200px;
+        left: 0px;
+        display: block;
+        margin: auto;
+
+    }
+
+    .questions a {
+        color: var(--f-4);
+    }
+
+    .q {
+        color: var(--f-4);
+    }
+
+    .small-contanks {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .small-contanks p {
+        color: var(--f-3);
+    }
+
+    /* Footer */
+
+    footer {
+        background-color: var(--f-1);
+        margin-top: -150px;
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer aside {
+        padding: 20px 20px;
+        width: 300px;
+    }
+
+    footer h6 {
+        margin-top: 0px;
+    }
+
+    .mid-foot {
+        margin-top: 0px;
+    }
+
+
+    .some {
+        bottom: 50px;
+        left: 580px;
+
+    }
+
 }
